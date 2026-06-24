@@ -13,7 +13,7 @@ int main (){
     scanf ("%s", &Estado);
 
     printf ("Digite o codigo de Carta:\n");
-    scanf ("%d", Carta);
+    scanf ("%c", Carta);
 
     printf ("Digite o nome da Cidade:\n");
     scanf ("%s", &Cidade);
@@ -30,9 +30,12 @@ int main (){
     printf ("Digite o numero de pontos turisticos:\n");
     scanf ("%d", PontosTuristicos);
 
-    printf ("Estado: %s\nCarta: %d\n", Estado, Carta);
-    printf ("Cidade: %s\nPopulação: %d\n", Cidade, População);
-    printf ("Area em km2: %f\nPIB: %f\n", Area, Pib);
+    printf ("Estado: %s\n", Estado);
+    printf ("Carta: %d\n", Carta);
+    printf ("Cidade: %s\n", Cidade);
+    printf ("População: %d\n", População);
+    printf ("Area em km2: %f\n", Area);
+    printf ("PIB: %f\n", Pib);
     printf ("PontosTuristicos:%d", PontosTuristicos);
 
 
