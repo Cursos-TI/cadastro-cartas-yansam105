@@ -4,7 +4,7 @@ int main() {
 
     char estado[3];
     int codigo;
-    char cidade[50];
+    int cidade;
     int populacao;
     float area;
     float PIB;
@@ -39,7 +39,7 @@ int main() {
     densidadePopulacional = populacao / area;
     pibPerCapita = PIB / populacao;
 
-    printf("\n--- Carta ---\n");
+    printf("\n***** Carta *****\n");
     printf("Estado: %s\n", estado);
     printf("Codigo: %d\n", codigo);
     printf("Cidade: %s\n", cidade);
