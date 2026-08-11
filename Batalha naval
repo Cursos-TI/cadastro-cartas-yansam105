@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main() {
+
+    int L, C;
+
+    char matriz[10][10];
+
+    // Preenche a matriz com água
+    for (L = 0; L < 10; L++) {
+        for (C = 0; C < 10; C++) {
+            matriz[L][C] = '0';
+        }
+    }
+
+    // Coloca um navio horizontal de 3 posições
+    matriz[2][3] = 'N';
+    matriz[2][4] = 'N';
+    matriz[2][5] = 'N';
+
+    // Cabeçalho das colunas
+    printf("   ");
+
+    for (C = 0; C < 10; C++) {
+        printf("%c ", 'A' + C);
+    }
+
+    printf("\n");
+
+    // Mostra o tabuleiro
+    for (L = 0; L < 10; L++) {
+
+        printf("%2d ", L + 1);
+
+        for (C = 0; C < 10; C++) {
+            printf("%c ", matriz[L][C]);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
