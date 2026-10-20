@@ -12,4 +12,24 @@
 <p>Podemos modificar o conteudo!</p>
 </body>
 
+<table>
+<tr>
+    <th> Itens</th>
+    <th> Quantidade</th>
+    <th> Total</th>
+</tr>
+
+<tr>
+   <td>Registro 01</td>
+   <td>3</td>
+   <td>R$30</td>
+</tr>
+
+<tr>
+   <td>Registro 02</td>
+   <td>2</td>
+   <td>R$30</td>
+</tr>
+</table> 
+
 </html>
